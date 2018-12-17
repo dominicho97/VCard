@@ -1,34 +1,71 @@
 
 
-.container{
-  font-size: 20px;
+.vcard {
+  width:800px;
+  height: 500px;
+  background-color: antiquewhite;
+  /* position tot transform voor content in center*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 
 .sidebar {
-  width: 200px;
+  width: 100px;
   
-  margin-left: 30%;
+  
   margin-top: 20%;
 }
 
 .sidebar a {
-  background-color: #eee;
+  background-color: antiquewhite;
   color: black;
   display: block;
   padding: 12px;
   text-decoration: none;
+  color: #5d5d5d;
+  font-size: 16px;
 }
 
 .sidebar a:hover {
   background-color: #ccc;
+
 }
 
 
 .name {
-  margin-left: 30%;
+  margin-left: 20%;
+  top: -20%;
+  position: absolute;
 }
 
 .under-title{
-  margin-left: 30%;
+  margin-left: 22%;
+  top: -10%;
+  position: absolute;
+  font-size: 15px;
+}
+
+.about-me{
+  margin-left: 20%;
+  top: -300px;
+  position: relative;
+  
+  color: #5d5d5d;
+}
+.personal{
+  position: relative;
+  left: 350px;
+  top: -350px;
+  color: #5d5d5d;
+}
+
+.social{
+  position: relative;
+  color: #5d5d5d;
+  top: -395px;
+  margin-left: 70%;
 }
