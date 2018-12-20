@@ -11,6 +11,7 @@
   transform: translate(-50%, -50%);
   border:solid rgb(64, 255, 207);
   border-width: 5px;
+  font-family: 'Montserrat-Bold', "Helvetica", "Arial", sans-serif
   
 }
 
@@ -38,8 +39,17 @@
 
 .about-me{
   position: relative;
-
- margin-left: 10%;
+margin-top: 100px;
+ margin-left: 5px;;
+ font-size: 80px;
+    
+    opacity: .1;
+    position: absolute;
+    /* turns text vertically*/
+    -webkit-transform: rotate(-90deg) translateX(-100%);
+    -webkit-transform-origin: left top 0;
+    ;
+}
 
   
   
