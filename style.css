@@ -38,7 +38,7 @@
 }
 
 .about-me{
-  position: relative;
+  
 margin-top: 100px;
  margin-left: 5px;;
  font-size: 80px;
@@ -48,15 +48,15 @@ margin-top: 100px;
     /* turns text vertically*/
     -webkit-transform: rotate(-90deg) translateX(-100%);
     -webkit-transform-origin: left top 0;
-    ;
+    
 }
 
   
   
 }
-.personal{
-  position: relative;
-  margin-left: 40%;
+.personal  {
+  position: absolute;
+  margin-left: 40px;
   top: -50px;
 
 }
@@ -65,7 +65,7 @@ margin-top: 100px;
   position: relative;
   
  margin-left: 70%;
- top:-95px;
+ top:-50px;
 }
 
 
@@ -75,6 +75,6 @@ margin-top: 100px;
 a{
   text-decoration: none;
   color: black;
-
+  margin-left: 40px;
 }
 
