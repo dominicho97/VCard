@@ -3,37 +3,22 @@
 .vcard {
   width:800px;
   height: 500px;
-  background-color: antiquewhite;
+  background-color:   antiquewhite;
   /* position tot transform voor content in center*/
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border:solid rgb(64, 255, 207);
+  border-width: 5px;
   
 }
 
 
-.sidebar {
-  width: 100px;
-  
-  
-  margin-top: 20%;
-}
 
-.sidebar a {
-  background-color: antiquewhite;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
-  color: #5d5d5d;
-  font-size: 16px;
-}
 
-.sidebar a:hover {
-  background-color: #ccc;
 
-}
+
 
 
 .name {
@@ -52,24 +37,25 @@
 }
 
 .about-me{
-  margin-left: 20%;
-  top: -300px;
   position: relative;
+
+ margin-left: 10%;
+
   
   
 }
 .personal{
   position: relative;
-  left: 350px;
-  top: -350px;
+  margin-left: 40%;
+  top: -50px;
 
 }
 
 .social{
   position: relative;
   
-  top: -395px;
-  margin-left: 70%;
+ margin-left: 70%;
+ top:-95px;
 }
 
 
@@ -78,6 +64,7 @@
 
 a{
   text-decoration: none;
-  color: #5d5d5d;
+  color: black;
+
 }
 
