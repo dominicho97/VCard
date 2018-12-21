@@ -19,7 +19,7 @@
 
 .picture{
   position: absolute;
-  left: 20%;
+  left: 17%;
   top: 50px;
 }
 
@@ -105,12 +105,12 @@ h3{
   padding-left: 200px;
   padding-right: 200px;
 
-  left: 150px;
+  left: 130px;
 
   position: relative;
-  top: 350px;
+  top: 330px;
   color: #5d5d5d;
   
-  height: 50px;
+  height:50px;
   
 }
