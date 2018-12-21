@@ -3,13 +3,13 @@
 .vcard {
   width:800px;
   height: 500px;
-  background-color:   white;
+  background-color:  white;
   /* position tot transform voor content in center*/
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border:solid rgb(64, 255, 207);
+  border:solid lightgray;
   border-width: 5px;
   font-family: 'Montserrat-Bold', "Helvetica", "Arial", sans-serif
   
@@ -103,7 +103,14 @@ h3{
 
 .block1{
   padding-left: 200px;
-  padding-left: 200px;
+  padding-right: 200px;
+
+  left: 150px;
+
   position: relative;
-  top: 400px;
+  top: 350px;
+  color: #5d5d5d;
+  
+  height: 50px;
+  
 }
