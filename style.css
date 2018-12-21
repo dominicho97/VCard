@@ -93,7 +93,7 @@ a{
 }
 
 h3{
-  color: rgb(64, 255, 207);
+  color: rgb(3, 250, 196);
   font-size: 25px;
   top:-15px;
   position: relative;
@@ -113,4 +113,24 @@ h3{
   
   height:50px;
   
+  
+}
+
+.list{
+  background: rgb(153, 253, 232);
+  
+  display:inline-block;
+  font-family: 'Montserrat-Bold', "Helvetica", "Arial", sans-serif;
+  position: relative;
+  font-size: 16px;
+  left: 490px;  
+
+  border-radius: 12px;
+  top: 330px;
+
+  color: #5d5d5d;
+
+  height:270px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
